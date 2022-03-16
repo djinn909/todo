@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+}
+
+#footer {
+    display: grid;
+    padding: 1rem;
+    background: #030411;
+    color: #F5B983;
+    
+}
+
+#page {
+    display: grid; 
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+    margin: 0;
+    
+} 
+
+#container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    
+}
+
+#header {
+    display: grid;
+    padding: 2 rem;
+    background-color: #4D8EE5;
+    min-height: 15vh;
+    color: #F5B983; 
+    font-size: 23px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+}
+
+#leftpanel {
+    display: grid;
+    background-color: #F5B983;
+    color: #4D8EE5;
+}
+
+#rightpanel {
+    display: grid;
+    background-color: #4D8EE5;
+    color: #F5B983;
+}
+
+#addproj {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+}
+
+.selected {
+    color: red;
+}
+
+
+#projectHeading {
+    font-size: 50px;
+    font-weight: bold;
+} 
+
+#task {
+    
+    border: 2px solid black;
+}
